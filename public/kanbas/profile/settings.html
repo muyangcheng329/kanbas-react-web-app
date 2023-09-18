@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Title</title>
+</head>
+<body>
+    <table width="80%">
+        <tr>
+            <td valign="top">
+                <ul>
+                    <li><a href="../account.html">Account</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="../course.html">Courses</a></li>
+                    <li><a href="#">Calandar</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Commons</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </td>
+    
+            <td valign="top">
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="#">Modules</a></li>
+                    <li><a href="#">Piazza</a></li>
+                    <li><a href="#">Zoom Meetings</a></li>
+                    <li><a href="../assignments/assignments.html">Assignments</a></li>
+                    <li><a href="#">Quizzes</a></li>
+                    <li><a href="../grades.html">Grades</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Panopto Video</a></li>
+                    <li><a href="#">Discussions</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Rubrics</a></li>
+                    <li><a href="#">Outcomes</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                </ul>
+            </td>
+
+            <td valign="top">
+
+                <a href="course.html" class="tab-link" onclick="showTab('tab1')">Course Details</a>
+                <a href="#" class="tab-link" onclick="showTab('tab2')">Sections</a>
+                <a href="navigation.html" class="tab-link" onclick="showTab('tab3')">Navigation</a>
+                <a href="#" class="tab-link" onclick="showTab('tab1')">Apps</a>
+                <a href="#" class="tab-link" onclick="showTab('tab2')">Feature Options</a>
+                <a href="#" class="tab-link" onclick="showTab('tab3')">Integrations</a>
+
+                <h3>
+                    Course Details
+                </h3>
+
+                <h4>
+                    Image: 
+                    <button type="button"><a href="#">Choose Image</a></button><br>
+                </h4>
+
+                <h4>
+                    Name: CS4550 12631 Web Development SEC 01 Fall 2023 [BOS-1-TR]
+                </h4>
+                
+                <h4>
+                    Couse Code: CS4550.12631.202410
+                </h4>
+
+                <h4>
+                    Blueprint Course: No
+                </h4>
+
+                <h4>
+                    Course Template:
+                    <input type="checkbox" value="Enable course as a Course Template"
+                    name="check-genre" id="chkbox-comedy">
+                    <label for="chkbox-comedy">Enable course as a Course Template</label> 
+                </h4>
+
+                <h4>
+                    Time Zone:
+                    <select id="select-one-genre">
+                        <option selected value="SCIFI">
+                            Eastern Time (US & Canada)(-05:00/-04:00)</option>
+                        <option value="QUIZZES">Duplicate</option>
+                        <option value="Delete">Delete</option>
+                        <option value="EXAM">Move to...</option>
+                        <option value="PROJECT">Send to...</option>
+                    </select> 
+                </h4>
+
+                <h4>
+                    SIS ID: CS4550.12631.202410
+                </h4>
+
+                <h4>
+                    Subaccount:
+                    <a href="#">CS Undergrad</a></button>
+                </h4>
+
+                <h4>
+                    Term: 202410_1 Fall 2023 Semester Full Term
+                </h4>
+
+                <h4>
+                    Participation:
+                    <select id="select-one-genre">
+                        <option selected value="SCIFI">
+                            Term</option>
+                        <option value="QUIZZES">Duplicate</option>
+                        <option value="Delete">Delete</option>
+                        <option value="EXAM">Move to...</option>
+                        <option value="PROJECT">Send to...</option>
+                    </select><br>
+
+                    <div style="margin-left: 100px;">
+                        Course Participations is limited to term start and end dates
+                    </div><br>
+
+                    <div style="margin-left: 100px;">
+                        Start
+                    </div>
+
+                    <div style="margin-left: 100px;">
+                        <input type="date"
+                        id="text-fields-dob"
+                        value=""/>
+                    </div><br>
+
+                    <div style="margin-left: 100px;">
+                        End
+                    </div>
+
+
+                    <div style="margin-left: 100px;">
+                        <input type="date"
+                        id="text-fields-dob"
+                        value=""/>
+                    </div><br>
+
+                    <h4>
+                        <div style="margin-left: 100px;">
+                        <input type="checkbox" value="Restrict Students from viewing course before term start date"
+                        name="check-genre" id="chkbox-comedy">
+                        <label for="chkbox-comedy">Restrict Students from viewing course before term start date</label>
+                        </div> 
+                    </h4>
+
+                    <h4>
+                        <div style="margin-left: 100px;">
+                        <input type="checkbox" value="Restrict Students from viewing course before term start date"
+                        name="check-genre" id="chkbox-comedy">
+                        <label for="chkbox-comedy">Restrict Students from viewing course after term end date</label>
+                        </div> 
+                    </h4>
+
+                    <h4>
+                        Default due time:
+                        <select id="select-one-genre">
+                            <option selected value="SCIFI">
+                                Account default(11:59PM)</option>
+                            <option value="QUIZZES">Duplicate</option>
+                            <option value="Delete">Delete</option>
+                            <option value="EXAM">Move to...</option>
+                            <option value="PROJECT">Send to...</option>
+                        </select>
+
+                        <h5>
+                            <div style="margin-left: 125px;">
+                                <p style="margin-top: -20px;">
+                                    This influences the user interface for seeting due dates. It does not change the time due for any existing assignments.
+                                </p>
+                            </div>
+                        </h5>     
+                    
+                    <h4>
+                        Language:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <select id="select-one-genre">
+                            <option selected value="SCIFI">
+                                Not set(user-configurable, defaults to English (Unit))</option>
+                            <option value="QUIZZES">Duplicate</option>
+                            <option value="Delete">Delete</option>
+                            <option value="EXAM">Move to...</option>
+                            <option value="PROJECT">Send to...</option>
+                        </select>
+
+                        <h5>
+                            <div style="margin-left: 125px;">
+                                <p style="margin-top: -20px;">
+                                    This will override any user/system language preferences. This is only recommended for foreign language courses.
+                                </p>
+                            </div>
+                        </h5>
+                    </h4>
+                    
+                    <h4>
+                        File Storage: 10000 megabytes
+                    </h4>
+
+                    <h4>
+                        Large Course: 
+                            <input type="checkbox" value="Launch SpeedGrader Filtered by Student Group"
+                            name="check-genre" id="chkbox-comedy">
+                            <label for="chkbox-comedy">Launch SpeedGrader Filtered by Student Group</label> 
+                    </h4>
+
+                    <h4>
+                        Grading Scheme: 
+                            <input type="checkbox" value="Enable course grading scheme"
+                            name="check-genre" id="chkbox-comedy">
+                            <label for="chkbox-comedy">Enable course grading scheme</label> 
+                    </h4>
+
+                    <h4>
+                        License:
+                        <select id="select-one-genre">
+                            <option selected value="SCIFI">
+                                Private(Copyrighted)</option>
+                            <option value="QUIZZES">Duplicate</option>
+                            <option value="Delete">Delete</option>
+                            <option value="EXAM">Move to...</option>
+                            <option value="PROJECT">Send to...</option>
+                        </select><br>
+                    </h4>
+                    
+                    <h4>
+                        File Copyright: 
+                            <input type="checkbox" value="Copyright and license information must be provided for files before they are published."
+                            name="check-genre" id="chkbox-comedy">
+                            <label for="chkbox-comedy">Copyright and license information must be provided for files before they are published.</label> 
+                    </h4>
+
+                    <h4>
+                        Visibility: if you need to make your course public please contact your administrator/support.<br>
+                        <div style="margin-left: 70px;">
+                        <select id="select-one-genre">
+                            <option selected value="SCIFI">
+                                Course</option>
+                            <option value="QUIZZES">Duplicate</option>
+                            <option value="Delete">Delete</option>
+                            <option value="EXAM">Move to...</option>
+                            <option value="PROJECT">Send to...</option>
+                        </select><br>
+                        </div>
+
+                        <div style="margin-left: 67px;">
+                        <input type="checkbox" value="Include this course in the public course index"
+                            name="check-genre" id="chkbox-comedy">
+                        <label for="chkbox-comedy">Include this course in the public course index</label>
+                        </div>
+                    </h4>
+                    
+                    <h4>
+                        Format: 
+                        <select id="select-one-genre">
+                            <option selected value="SCIFI">
+                                On-Campus</option>
+                            <option value="QUIZZES">Duplicate</option>
+                            <option value="Delete">Delete</option>
+                            <option value="EXAM">Move to...</option>
+                            <option value="PROJECT">Send to...</option>
+                        </select><br>
+                    </h4>
+                    
+                    <h4>
+                        Mastery Paths: 
+                        <input type="checkbox" value="Enable individual learning paths for students based on assessment."
+                            name="check-genre" id="chkbox-comedy">
+                        <label for="chkbox-comedy">Enable individual learning paths for students based on assessment.</label>
+                    </h4>
+
+                    <h4>
+                        <label for="description">Description:</label>
+                        <textarea id="description" cols="30" rows="3"></textarea>
+                    </h4>
+
+                    <a href="#">more options</a>
+
+                    <div style="height: 17px;"></div> 
+
+                    <hr style="border: 1.5px solid gray; margin: 8px 0; width: 59%">
+
+                    <div style="margin-left: 500px;">
+                        <button type="button"><a href="#">Update Course Details</a></button><br>
+                    </div>
+
+
+                </h4>
+            </td>
+        </tr>
+</body>
+</html>
