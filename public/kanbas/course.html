@@ -1,49 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-   <meta charset="UTF-8">
-   <title>Title</title>
-</head>
-<body>
+   <link rel = "stylesheet" href = "../styles.css" />
+   <link rel = "stylesheet" href = "account.css" />
+   <link rel = "stylesheet" href = "course.css" />
+   <link rel = "stylesheet" href = "index.css" />
+   <link rel = "stylesheet" href = "assignmentsedit.css" />
+   <script src="https://kit.fontawesome.com/b1411ba5ff.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
-<table width="38%">
+</head>
+
+<body>
+    <table>
     <tr>
         <td valign="top">
-            <ul>
-                <li><a href="account.html">Account</a></li>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="course.html">Courses</a></li>
-                <li><a href="#">Calandar</a></li>
-                <li><a href="#">Inbox</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Commons</a></li>
-                <li><a href="#">Help</a></li>
+            <ul class = "wd-kanbas-navigation">
+                <img src="../images/NEU.jpg"/>
+                <li><a href="profile.html" class="white-icon"><i class="fa-regular fa-circle-user"></i>
+                    Account</a></li>
+                <li><a href="dashboard.html"><i class="fa-solid fa-gauge"></i>
+                    Dashboard</a></li>
+                <li class = "wd-active"><a href="course.html" class="red-icon"><i class="fa-solid fa-book"></i>
+                    Courses</a></li>
+                <li><a href="#"><i class="fa-solid fa-calendar-days"></i>
+                    Calandar</a></li>
+                <li><a href="#"><i class="fa-solid fa-inbox"></i>
+                    Inbox</a></li>
+                <li><a href="#"><i class="fa-regular fa-clock"></i>
+                    History</a></li>
+                <li><a href="#"><i class="fa-solid fa-tv"></i>
+                    Studio</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    Commons</a></li>
+                <li><a href="#"><i class="fa-regular fa-circle-question"></i>
+                    Help</a></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </td>
 
         <td valign="top">
-            <ul>
-                <li><a href="home.html">Home</a></li>
+            <ul class = "wd-course-navigation">
+                <div style="height: 30px;"></div>
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#" class="red-icon"><i class="fa-solid fa-bars"></i> &nbsp;&nbsp;&nbsp;CS4550.12631.202410</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Modules</li>
+                        </ol>
+                    </nav>
+                <hr class="wd-course-hr">
+                <div style="height: 20px;"></div>
+                <h6><i class ="wd-course-moveright">202410_1 Fall 2023 Semster...</i></h6>
+                <div style="height: 10px;"></div>
+                <li class = "wd-active"><a href="home.html">Home</a></li>
                 <li><a href="#">Modules</a></li>
                 <li><a href="#">Piazza</a></li>
                 <li><a href="#">Zoom Meetings</a></li>
-                <li><a href="assignments/assignments.html">Assignments</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
                 <li><a href="#">Quizzes</a></li>
                 <li><a href="grades.html">Grades</a></li>
                 <li><a href="#">People</a></li>
                 <li><a href="#">Panopto Video</a></li>
-                <li><a href="#">Discussions</a></li>
-                <li><a href="#">Announcements</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Files</a></li>
-                <li><a href="#">Rubrics</a></li>
-                <li><a href="#">Outcomes</a></li>
-                <li><a href="#">Collaborations</a></li>
-                <li><a href="#">Syllabus</a></li>
-                <li><a href="profile/settings.html">Settings</a></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Discussions</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Announcements</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Pages</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Files</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Rubrics</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Outcomes</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Collaborations</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Syllabus</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="settings.html">Settings</a>&nbsp;&nbsp;&nbsp;</li>
             </ul>
         </td>
     </tr>
+    </table>
 </body>
 </html>

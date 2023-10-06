@@ -1,0 +1,162 @@
+.wd-grades-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 500px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.wd-grades-navigation li {
+    padding-left:10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.wd-grades-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-grades-navigation li.wd-active a {
+    color:black;
+}
+.wd-grades-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+.wd-grades-moveright {
+    margin-left: 460px;
+}
+
+.wd-grades-hr {
+    width: 1390px; 
+}
+
+.wd-grades-hrr {
+    width: 1300px; 
+}
+
+.wd-grades-navigation li a i.fa-regular.fa-eye-slash {
+    vertical-align: middle;
+}
+
+.wd-grades-third {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 1000px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.green-circle-check {
+    color: green; 
+    background-color: white; 
+}
+
+.green-check {
+    color: white; 
+    background-color: green; 
+}
+
+.wd-grades-right {
+    margin-left: 500px;
+}
+
+.wd-grades-rightt {
+    margin-left: 850px;
+}
+
+.wd-grades-navigation4 {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 1000px;
+    margin: 0px;
+    margin-left: 60px;   
+}
+
+.wd-grades-red {
+    color:red;
+    text-decoration: none; 
+}
+
+.wd-grades-black {
+    color:black;
+}
+
+.wd-grades-Assright {
+    margin-left: 100px;
+}
+
+.wd-grades-link {
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.wd-grades-navigation3 {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 840px;
+    margin: 0px;
+    margin-left: 60px;   
+}
+
+.wd-grades-listright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-grades-bg2 {
+    background-color: white;
+    color:black;
+}
+
+.wd-grades-checkright {
+    margin-left: 160px;
+}
+
+.wd-grades-onlineright {
+    margin-left: 30px;
+}
+
+.wd-grades-button {
+    width: 150px; 
+}
+
+.wd-grades-online {
+    margin-left: 20px;
+}
+
+.wd-grades-onlineleft {
+    margin-left: 20px;
+}
+
+.wd-grades-buright {
+    margin-left: 480px;
+}
+
+.wd-grades-icon {
+    width:120px;
+}
+
+.wd-grades-icona {
+    width:200px;
+}
+
+.wd-grades-leftt {
+    margin-right: 20px;
+}
+
+.wd-grades-iconn {
+    color: red;
+}
+
+.custom-small-button {
+    width: 40px;
+    height: 40px; 
+}

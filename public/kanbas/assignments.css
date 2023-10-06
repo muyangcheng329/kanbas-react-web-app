@@ -1,0 +1,103 @@
+.wd-assignments-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 330px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.wd-assignments-navigation li {
+    padding-left:10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.wd-assignments-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-assignments-navigation li.wd-active a {
+    color:black;
+}
+.wd-assignments-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+.wd-assignments-moveright {
+    margin-left: 460px;
+}
+
+.wd-assignments-hr {
+    width: 1390px; 
+}
+
+.wd-assignments-hrr {
+    width: 1300px; 
+}
+
+.wd-assignments-navigation li a i.fa-regular.fa-eye-slash {
+    vertical-align: middle;
+}
+
+.wd-assignments-third {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 1000px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.green-circle-check {
+    color: green; 
+    background-color: white; 
+}
+
+.green-check {
+    color: white; 
+    background-color: green; 
+}
+
+.wd-assignments-right {
+    margin-left: 500px;
+}
+
+.wd-assignments-rightt {
+    margin-left: 850px;
+}
+
+.wd-assignments-navigation4 {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 1000px;
+    margin: 0px;
+    margin-left: 60px;   
+}
+
+.wd-assignments-red {
+    color:red;
+    text-decoration: none; 
+}
+
+.wd-assignments-black {
+    color:black;
+}
+
+.wd-assignments-Assright {
+    margin-left: 100px;
+}
+
+.wd-assignments-link {
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+   }
+   

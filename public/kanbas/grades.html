@@ -1,139 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <title>Title</title>
+    <link rel = "stylesheet" href = "../styles.css" />
+    <link rel = "stylesheet" href = "account.css" />
+    <link rel = "stylesheet" href = "course.css" />
+    <link rel = "stylesheet" href = "index.css" />
+    <link rel = "stylesheet" href = "home.css" />
+    <link rel = "stylesheet" href = "assignments.css" />
+    <link rel = "stylesheet" href = "assignmentsedit.css" />
+    <link rel = "stylesheet" href = "grades.css" />
+    <script src="https://kit.fontawesome.com/b1411ba5ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
+    <div class = "wd-flex-row-container">
+        <div>
+            <td valign="top">
+                <ul class = "wd-kanbas-navigation">
+                    <img src="../images/NEU.jpg"/>
+                    <li><a href="account.html" class="white-icon"><i class="fa-regular fa-circle-user"></i>
+                        Account</a></li>
+                    <li><a href="dashboard.html"><i class="fa-solid fa-gauge"></i>
+                        Dashboard</a></li>
+                    <li class = "wd-active"><a href="home.html" class="red-icon"><i class="fa-solid fa-book"></i>
+                        Courses</a></li>
+                    <li><a href="#"><i class="fa-solid fa-calendar-days"></i>
+                        Calandar</a></li>
+                    <li><a href="#"><i class="fa-solid fa-inbox"></i>
+                        Inbox</a></li>
+                    <li><a href="#"><i class="fa-regular fa-clock"></i>
+                        History</a></li>
+                    <li><a href="#"><i class="fa-solid fa-tv"></i>
+                        Studio</a></li>
+                    <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        Commons</a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle-question"></i>
+                        Help</a></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </td>    
+        </div>
 
-<table width="65%">
-    <tr>
-        <td valign="top">
-            <ul>
-                <li><a href="account.html">Account</a></li>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="course.html">Courses</a></li>
-                <li><a href="#">Calandar</a></li>
-                <li><a href="#">Inbox</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Commons</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </td>
-        
-        <td valign="top">
-            <ul>
+        <div>
+            <ul class = "wd-assignmentsedit-navigation">
+                <div style="height: 20px;"></div>
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#" class="red-icon"><i class="fa-solid fa-bars"></i> &nbsp;&nbsp;&nbsp;CS5610.11744.202310</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Grades</li>
+                        </ol>
+                    </nav>
+                <hr class="wd-assignments-hr">
+                <div style="height: 20px;"></div>
+                <h6><i class ="wd-course-moveright">202310_2 Fall 2022 Semster...</i></h6>
+                <div style="height: 10px;"></div>
                 <li><a href="home.html">Home</a></li>
-                <li><a href="#">Modules</a></li>
                 <li><a href="#">Piazza</a></li>
                 <li><a href="#">Zoom Meetings</a></li>
-                <li><a href="assignments/assignments.html">Assignments</a></li>
+                <li><a href="#">Modules</a></li>
                 <li><a href="#">Quizzes</a></li>
-                <li><a href="grades.html">Grades</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li class = "wd-active"><a href="grades.html">Grades</a></li>
                 <li><a href="#">People</a></li>
-                <li><a href="#">Panopto Video</a></li>
-                <li><a href="#">Discussions</a></li>
-                <li><a href="#">Announcements</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Files</a></li>
-                <li><a href="#">Rubrics</a></li>
-                <li><a href="#">Outcomes</a></li>
-                <li><a href="#">Collaborations</a></li>
-                <li><a href="#">Syllabus</a></li>
-                <li><a href="profile/settings.html">Settings</a></li>
+                <li><a href="#">Microsoft Teams Meetings</a></li>
+                <li><a href="#">FACT Reporting and Photo Roster</a></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Discussions</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Announcements</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Pages</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Files</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Rubrics</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Outcomes</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Collaborations</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Syllabus</a>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-eye-slash"></i></li>
+                <li class="wd-assignmentedit-listright"><a href="#">Progress Reports (EAB Navigate)</a></li>
+                <li><a href="settings.html">Settings</a></li>
             </ul>
-        </td>
+        </div> 
 
-        <td valign="top">
-            <div style="height: 17px;"></div>
-            <select id="select-one-genre">
-                <option value="COMEDY">Comedy</option>
-                <option value="DRAMA">Drama</option>
-                <option selected value="SCIFI">
-                    Gradebook</option>
-                <option value="FANTASY">Fantasy</option>
-            </select>
-            <button type="button">Import</button>
-            <select id="select-one-genre">
-                <option value="COMEDY">Comedy</option>
-                <option value="DRAMA">Drama</option>
-                <option selected value="SCIFI">
-                    Export</option>
-                <option value="FANTASY">Fantasy</option>
-            </select>
-            <button type="button">Configure</button>
-            <h3>Student Names</h3>
-            <input type="email"
-                   placeholder="Search Students"
-                   id="text-fields-email"/><br/>
-            <h3>Assignment Names</h3>
-            <input type="email"
-                   placeholder="Search Assignments"
-                   id="text-fields-email"/><br/>
-            <div style="height: 17px;"></div>
-            <button type="button">Apply Filters</button>
-            <div style="height: 17px;"></div>
-            <table border="1" width="100%">
-                <thead>
-                <tr>
-                    <th>Student Name</th>
-                    <th>A1 SETUP Out of 100</th>
-                    <th>A2 HTML Out of 100</th>
-                    <th>A3 CSS Out of 100</th>
-                    <th>A4 BOOTSTRAP Out of 100</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>Razor</th>
-                    <th>98</th>
-                    <th>
-                        <input type="number" 
-                            value = "89"
-                            style="width: 40px"/><br/>
-                    </th>
-                    <th>87</th>
-                    <th>90</th>
-                </tr>
-                <tr>
-                    <th>Medusa</th>
-                    <th>98</th>
-                    <th>80</th>
-                    <th>
-                        <input type="number" 
-                            value = "92"
-                            style="width: 40px"/><br/>
-                    </th>
-                    <th>86</th>
-                </tr>
-                <tr>
-                    <th>Drow Ranger</th>
-                    <th>99</th>
-                    <th>91</th>
-                    <th>97</th>
-                    <th>
-                        <input type="number" 
-                            value = "82"
-                            style="width: 40px"/><br/>
-                    </th>
-                </tr>
-                <tr>
-                    <th>Faceless Void</th>
-                    <th>
-                        <input type="number" 
-                            value = "99"
-                            style="width: 40px"/><br/>
-                    </th>
-                    <th>80</th>
-                    <th>87</th>
-                    <th>86</th>
-                </tr>
-                </tbody>
-             </table>
-        </td>      
-    </tr>
-</table>
+        <div>
+            <td valign="top">
+                <ul class = "wd-grades-navigation3">
+                <div style="height: 150px;"></div>
 
+                <div class="d-flex align-items-center">
+                    <button type="button" class="btn btn-outline-secondary wd-assignmentsedit-right wd-grades-iconb" style="background-color:gainsboro;"><h6><i class="fa-solid fa-file-import"></i> &nbsp;Import</h6></button>
+                    &nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-outline-secondary wd-grades-iconb" style="background-color:gainsboro;"><h6><i class="fa-solid fa-file-export"></i> &nbsp;Export &nbsp;<i class="fa-solid fa-caret-down"></i></h6></button>
+                    &nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-outline-secondary " style="background-color:gainsboro;"><i class="fa-solid fa-gear"></i></a></button>
+                </div>    
+                
+                <div style="height: 20px;"></div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-md-6"> 
+                            <h6>Student Names</h6>
+                            <div class="d-flex align-items-center">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%; display: flex; justify-content: space-between;">
+                                    <span><i class="fa-solid fa-magnifying-glass"></i> &nbsp;&nbsp;Search Students</span>
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" style="width: 20%;">
+                                    <li><a class="dropdown-item" href="#">Razor</a></li>
+                                    <li><a class="dropdown-item" href="#">Medusa</a></li>
+                                    <li><a class="dropdown-item" href="#">Drow Ranger</a></li>
+                                    <li><a class="dropdown-item" href="#">Faceless Void</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h6>Assignment Names</h6>
+                            <div class="d-flex align-items-center">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%; display: flex; justify-content: space-between;">
+                                    <span><i class="fa-solid fa-magnifying-glass"></i> &nbsp;&nbsp;Search Assignments</span>
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" style="width: 20%;">
+                                    <li><a class="dropdown-item" href="#">A1 Setup</a></li>
+                                    <li><a class="dropdown-item" href="#">A2 HTML</a></li>
+                                    <li><a class="dropdown-item" href="#">A3 CSS</a></li>
+                                    <li><a class="dropdown-item" href="#">A4 BOOTSTRAP</a></li>
+                                    <li><a class="dropdown-item" href="#">A5 JAVASCRIPT</a></li>
+                                    <li><a class="dropdown-item" href="#">A6 REACT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="height: 20px;"></div>
+
+                <button type="button" class="btn btn-outline-secondary wd-grades-iconb" style="background-color:gainsboro;"><h6><i class="fa-solid fa-filter"></i> &nbsp;&nbsp;&nbsp;Apply Filters</h6></button>
+
+                <div style="height: 20px;"></div>
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-active">
+                          <th scope="col" >Student Name</th>
+                          <th scope="col" class="text-center">A1 Setup<br>Out of 100</th>
+                          <th scope="col" class="text-center">A2 HTML<br>Out of 100</th>
+                          <th scope="col" class="text-center">A3 CSS<br>Out of 100</th>
+                          <th scope="col" class="text-center">A4 BOOTSTRAP<br>Out of 100</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" style="color:red">Razor</th>
+                          <td class="text-center">100%</td>
+                          <td class="text-center"><input type="text" value="88.5%" style="width:80px; text-align: center;">
+                            <button type="button" class="btn btn-outline-secondary custom-small-button" style="background-color:gainsboro" >
+                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            </button>
+                          </td>
+                          <td class="text-center table-info">89.59%</td>
+                          <td class="text-center table-info">98.65%</td>
+                        </tr>
+                        <tr class="table-active">
+                          <th scope="row" style="color:red;">Medusa</th>
+                          <td class="text-center" >100%</td>
+                          <td class="text-center" >100%</td>
+                          <td class="text-center table-info" >91.5%</td>
+                          <td class="text-center" >100%</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" style="color:red">Drow Ranger</th>
+                          <td class="text-center">100%</td>
+                          <td class="text-center">97%</td>
+                          <td class="text-center">100%</td>
+                          <td class="text-center"><input type="text" value="97.5%" style="width:80px; text-align: center;">
+                            <button type="button" class="btn btn-outline-secondary custom-small-button" style="background-color:gainsboro" >
+                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            </button>
+                          </td>
+                        </tr>
+                        <tr class="table-active">
+                            <th scope="row" style="color:red;">Faceless Void</th>
+                            <td class="text-center table-info" >100%</td>
+                            <td class="text-center" >100%</td>
+                            <td class="text-center" >98.84%</td>
+                            <td class="text-center" >100%</td>
+                          </tr>
+                      </tbody>
+                </table>
+            </td>
+        </div>
+    </div>
 </body>
-</html>
+</html> 

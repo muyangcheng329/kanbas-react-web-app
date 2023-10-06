@@ -1,0 +1,54 @@
+.wd-setting-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 500px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.wd-setting-navigation li {
+    padding-left:10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.wd-setting-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-setting-navigation li.wd-active a {
+    color:black;
+}
+
+.wd-setting-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+.wd-setting-navigation3 {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 870px;
+    margin: 0px;
+    margin-left: 60px;   
+}
+
+.wd-setting-right {
+    margin-left: 100px;;
+}
+
+.wd-setting-bright {
+    margin-left: 70px;
+}
+
+.wd-setting-b {
+    color:red;
+    text-decoration: none;
+}
+
+.no-border-checkbox {
+    border: none;
+}

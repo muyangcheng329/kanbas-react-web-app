@@ -1,0 +1,48 @@
+.wd-profile-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 500px;
+    margin: 0px;
+    margin-left: 0px;   
+}
+
+.wd-profile-navigation li {
+    padding-left:10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.wd-profile-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-profile-navigation li.wd-active a {
+    color:black;
+}
+.wd-profile-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+.wd-profile-navigation a.red-icon i {
+    color:red;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.wd-profile-navigation a.black-icon i {
+    color:black;
+    font-size: 8em;
+    margin-bottom: 5px;
+}
+
+.wd-profile-navigation a.gray {
+    color:gray;
+    text-decoration: none;
+}
+
+.wd-profile-hr {
+    width: 900px; 
+}

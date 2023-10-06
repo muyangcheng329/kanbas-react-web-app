@@ -3,11 +3,11 @@
     
 <head>
    <link rel = "stylesheet" href = "../styles.css" />
-   <link rel = "stylesheet" href = "account.css" />
-   <link rel = "stylesheet" href = "course.css" />
+   <link rel = "stylesheet" href = "profile.css" />
    <link rel = "stylesheet" href = "index.css" />
-   <script src="https://kit.fontawesome.com/b1411ba5ff.js" crossorigin="anonymous"></script>
+   <link rel = "stylesheet" href = "account.css" />
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+   <script src="https://kit.fontawesome.com/b1411ba5ff.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -16,8 +16,8 @@
     <tr>
         <td>
             <ul class = "wd-kanbas-navigation">
-                <img src="../images/NEU.jpg"/>
-                <li class = "wd-active"><a href="profile.html" class="black-icon"><i class="fa-regular fa-circle-user"></i>
+                <img src="/images/NEU.jpg"/>
+                <li class = "wd-active"><a href="profile.html" class="black-icon"><i class="fa-solid fa-circle-user"></i>
                     Account</a></li>
                 <li><a href="dashboard.html"><i class="fa-solid fa-gauge"></i>
                     Dashboard</a></li>
@@ -35,7 +35,11 @@
                     Commons</a></li>
                 <li><a href="#"><i class="fa-regular fa-circle-question"></i>
                     Help</a></li>
-                <li></li>
+                <li></li> 
+                <li></li> 
+                <li></li> 
+                <li></li> 
+                <li></li> 
             </ul>
         </td>
 
@@ -44,11 +48,11 @@
                 <div style="height: 30px;"></div>
                 <a href="#" class="red-icon"><i class="fa-solid fa-bars"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medusa's Profile
                 <div style="height: 17px;"></div>
-                <hr>
+                <hr class="wd-profile-hr">
                 <li><a href="#">Notifications</a></li>
                 <li class = "wd-active"><a href="profile.html">Profile</a></li>
                 <li><a href="#">Files</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a href="settings.html">Settings</a></li>
                 <li><a href="#">ePortfolios</a></li>
                 <li><a href="#">Shared Content</a></li>
                 <li><a href="#">The Hub</a></li>
@@ -57,8 +61,35 @@
             </ul>
         </td>
 
+        <td valign="top">
+            <ul class = "wd-profile-navigation">
+            <div style="height: 150px;"></div>  
+            <a href="#" class="black-icon"><i class="fa-solid fa-circle-user"></i></a>
+            <div style="margin-left: 400px;">
+                <div style = "margin-top: -150px;">
+                <button type="button"><a href="edit.html" class = "gray"><i class="fa-solid fa-pen"></i>Edit Profile</a></button>
+                </div>
+            </div>
+            <div style="height: 180px;"></div>  
+            <h1>Medusa</h1>
+            <div style="height: 50px;"></div>  
+            <h2>Contact</h2>
+            <div style="height: 10px;"></div>
+            <h4>No registered services, you can add some on the <a href="settings.html">settings</a> page</h4>
+            <div style="height: 50px;"></div>
+            <h3>Biography</h3>
+            <div style="height: 10px;"></div>
+            <h4>Faculty, Software Engineer, AI, Space, and renewables enthusiast.</h4>
+            <div style="height: 50px;"></div>
+            <h3>Links</h3>
+            <div style="height: 10px;"></div>
+            <i class="fa-solid fa-link"></i> <a href="https://www.youtube.com">YouTube</a> &nbsp;<i class="fa-solid fa-file-export" style="color: #e63900;"></i>
+            </ul>
+        </td>
+
     </tr>
     </table>
+
 </body>
 </html>
 

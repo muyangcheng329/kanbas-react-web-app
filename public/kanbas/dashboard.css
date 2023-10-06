@@ -1,0 +1,75 @@
+.wd-dashboard-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 400px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.wd-dashboard-navigation li {
+    padding-left:10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.wd-dashboard-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-dashboard-navigation li.wd-active a {
+    color:black;
+}
+.wd-dashboard-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+.wd-dashboard-navigation a.red-icon i {
+    color:red;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.wd-dashboard-navigation a.black-icon i {
+    color:black;
+    font-size: 8em;
+    margin-bottom: 5px;
+}
+
+.wd-dashboard-navigation a.gray {
+    color:gray;
+    text-decoration: none;
+}
+
+.wd-dashboard-long {
+    width: 80%;
+    margin: 0 auto; 
+    border: none;
+  }
+
+.wd-dashboard-card .col{
+    width: 20%;
+    font-size: 0.8em;
+    margin: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wd-dashboard-hr {
+    width: 1800px; 
+}
+
+@media (max-width: 992px) {
+    .wd-dashboard-card .col {
+        width: 33.33%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .wd-dashboard-card .col {
+        width: 50%; 
+    }
+}

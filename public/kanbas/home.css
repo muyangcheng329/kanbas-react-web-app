@@ -1,0 +1,88 @@
+.wd-home-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 300px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.wd-home-navigation li {
+    padding-left:10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.wd-home-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-home-navigation li.wd-active a {
+    color:black;
+}
+.wd-home-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+.wd-home-moveright {
+    margin-left: 460px;
+}
+
+.wd-home-hr {
+    width: 1400px; 
+}
+
+.wd-home-hrr {
+    width: 1300px; 
+}
+
+.wd-home-navigation li a i.fa-regular.fa-eye-slash {
+    vertical-align: middle;
+}
+
+.wd-home-third {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 1000px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+
+.green-circle-check {
+    color: green; 
+    background-color: white; 
+}
+
+.green-check {
+    color: white; 
+    background-color: green; 
+}
+
+.wd-home-right {
+    margin-left: 717px;
+}
+
+.wd-home-rightt {
+    margin-left: 100px;
+}
+
+.wd-home-navigation4 {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 300px;
+    margin: 0px;
+    margin-left: 60px;   
+}
+
+.wd-home-red {
+    color:red;
+    text-decoration: none; 
+}
+
+.wd-home-black {
+    color:black;
+}
