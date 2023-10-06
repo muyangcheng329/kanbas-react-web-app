@@ -36,10 +36,6 @@
     margin-left: 60px;   
 }
 
-.wd-setting-right {
-    margin-left: auto;
-}
-
 .wd-setting-bright {
     margin-left: 70px;
 }
@@ -51,4 +47,19 @@
 
 .no-border-checkbox {
     border: none;
+}
+
+.d-flex {
+    display: flex;
+    align-items: flex-start; 
+}
+
+
+.d-flex .d-flex.flex-column {
+    width: 150px; 
+}
+
+
+.wd-setting-right {
+    margin-left: 20px; 
 }
