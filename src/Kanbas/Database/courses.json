@@ -1,0 +1,26 @@
+[
+    { "_id": "RS101",
+      "name": "Web Development", "number": "CS5610 01 FA 23", "startDate": "2023-09-07", "endDate": "2023-12-15"
+    },
+
+    { "_id": "RS102",
+      "name": "Database Management", "number": "CS5200 01 FA 23", "startDate": "2023-09-07", "endDate": "2023-12-15"
+    },
+
+    { "_id": "RS103",
+      "name": "OBJECT ORIENTED DESIGN", "number": "CS5004 01 FA 23", "startDate": "2023-09-07", "endDate": "2023-12-15"
+    },
+
+    { "_id": "RS104",
+      "name": "Algorithms", "number": "CS5800 01 FA 23", "startDate": "2023-09-07", "endDate": "2023-12-15"
+    },
+
+    { "_id": "RS105",
+      "name": "Principles of Programming Language ", "number": "CS5400 01 FA 23", "startDate": "2023-09-07", "endDate": "2023-12-15"
+    },
+
+    { "_id": "RS106",
+      "name": "Foundations of Software Engineering", "number": "CS5500 01 FA 23", "startDate": "2023-09-07", "endDate": "2023-12-15"
+    }
+  ]
+  
