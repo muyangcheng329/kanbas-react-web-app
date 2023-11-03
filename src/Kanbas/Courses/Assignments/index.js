@@ -8,10 +8,15 @@ import {AiOutlineCheckCircle} from "react-icons/ai"
 import {TbGripVertical} from "react-icons/tb"
 import {AiFillCaretDown} from "react-icons/ai"
 import {TfiWrite} from "react-icons/tfi"
+import { useDispatch } from 'react-redux';
+import { deleteAssignment } from './assignmentsReducer';
+
+
 
 function Assignments() {
   const { courseId } = useParams();
   const assignments = db.assignments;
+  
   const courseAssignments = assignments.filter(
     (assignment) => assignment.course === courseId);
 
@@ -25,9 +30,44 @@ function Assignments() {
     setSearchText(e.target.value);
   };
 
+  
+
+  const [assignment, setAssignment] = useState({
+    name: "New Assignment",
+    description: "New Assignment Description",
+    point: "100",
+    course: courseId,
+  });
+
+  // const deleteAssignment = (assignmentId) => {
+  //   setAssignment(assignments.filter((assignment => assignment._id !== assignmentId)));
+  // };
+  
+  const handleDeleteAssignment = (assignmentId) => {
+    dispatch(deleteAssignment(assignmentId));
+  };
+
+  const dispatch = useDispatch();
+
+  
+
+
   return (
     <div style={{ marginLeft: '60px',marginTop:'40px'}}>
       <div className="input-group mb-3" style={{ width: '1000px' }}>
+
+      <div className="container">
+        <li className="list-group-item" style={{marginLeft:'-15px'}}>
+          <Link
+            to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}
+            className="btn btn-primary">
+            + Assignment
+          </Link>
+        </li>
+      </div>
+
+      <div style={{marginTop:'100px'}}></div>
+
         <input
           type="text"
           className="form-control custom-input"
@@ -70,7 +110,18 @@ function Assignments() {
             <h6>
               <span style={{ color: 'red',marginLeft:'75px' }}>Mulitple Modules &nbsp;&nbsp;</span>
               <span> | &nbsp;&nbsp;&nbsp;Due Sep 18 at 11:59pm &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;100 pts</span>
-              <AiOutlineCheckCircle style={{ marginLeft: '400px'}} color="green"/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <button
+              onClick={(event) => {
+                event.stopPropagation(); 
+                handleDeleteAssignment(assignment._id);
+              }}>
+              Delete
+            </button>
+
+
+              <AiOutlineCheckCircle style={{ marginLeft: '300px'}} color="green"/>
               <FiMoreVertical style={{ marginLeft: '30px'}}/>
             </h6>
           </Link>

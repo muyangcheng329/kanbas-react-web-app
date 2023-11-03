@@ -15,11 +15,12 @@ import { useState, useEffect } from "react";
 
 
 
-function Courses() {
-  const {courseId,assignmentId } = useParams();
+function Courses({ courses }) {
+  const {courseId} = useParams();
+  const course = courses.find((course) => course._id === courseId);
   const {pathname} = useLocation();
-  const course = db.courses.find((course) => course._id === courseId);
-  const [empty, kanbas, courses, id, screen, name] = pathname.split("/");
+
+  const [empty, kanbas, id, screen, name] = pathname.split("/");
 
   return (
     <div style={{ marginLeft: '50px', marginTop: '10px' }} >
