@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
 import db from "../../Database";
 import {TbGripVertical} from "react-icons/tb"
@@ -13,11 +13,38 @@ import {
   deleteModule,
   updateModule,
   setModule,
+  setModules
 } from "./modulesReducer";
+import { findModulesForCourse,createModule} from "./client";
+import * as client from "./client";
 
 
 function ModuleList() {
   const { courseId } = useParams();
+  useEffect(() => {
+    findModulesForCourse(courseId)
+      .then((modules) =>
+        dispatch(setModules(modules))
+    );
+  }, [courseId]);
+
+  const handleAddModule = () => {
+    createModule(courseId, module).then((module) => {
+      dispatch(addModule(module));
+    });
+  };
+  const handleDeleteModule = (moduleId) => {
+    client.deleteModule(moduleId).then((status) => {
+      dispatch(deleteModule(moduleId));
+    });
+  };
+
+  const handleUpdateModule = async () => {
+    const status = await client.updateModule(module);
+    dispatch(updateModule(module));
+  };
+
+
   const modules = useSelector((state) => state.modulesReducer.modules);
   const module = useSelector((state) => state.modulesReducer.module);
   const dispatch = useDispatch();
@@ -65,11 +92,11 @@ function ModuleList() {
 
 
         &nbsp;&nbsp;&nbsp;
-        <button onClick={() => dispatch(updateModule(module))} style={{ backgroundColor: 'blue', color: 'white' }}>
+        <button onClick={handleUpdateModule} style={{ backgroundColor: 'blue', color: 'white' }}>
           Update
         </button>
 
-        <button onClick={() => dispatch(addModule({ ...module, course: courseId })) } style={{ backgroundColor: 'green', color: 'white' }}>
+        <button onClick={handleAddModule} style={{ backgroundColor: 'green', color: 'white' }}>
            Add
         </button>
 
@@ -98,7 +125,7 @@ function ModuleList() {
               </div>
               
               <div style={{ display: 'flex', alignItems: 'center' }}>
-                <button onClick={() => dispatch(deleteModule(module._id))} style={{ backgroundColor: 'red', color: 'white' }}>
+                <button onClick={()=> handleDeleteModule(module._id)} style={{ backgroundColor: 'red', color: 'white' }}>
                   Delete
                 </button>
                 <button onClick={() => dispatch(setModule(module))} style={{ backgroundColor: 'blue', color: 'white' }}>

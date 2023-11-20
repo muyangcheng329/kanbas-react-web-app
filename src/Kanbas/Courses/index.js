@@ -12,12 +12,25 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import {AiOutlineRight} from 'react-icons/ai'; 
 import {BiGlassesAlt} from 'react-icons/bi'; 
 import { useState, useEffect } from "react";
+import axios from "axios";
 
 
 
-function Courses({ courses }) {
+function Courses() {
   const {courseId} = useParams();
-  const course = courses.find((course) => course._id === courseId);
+  const URL = "https://kanbas-node-server-app-bjef.onrender.com/api/courses";
+  const [course, setCourse] = useState({});
+  const findCourseById = async (courseId) => {
+    const response = await axios.get(
+      `${URL}/${courseId}`
+    );
+    setCourse(response.data);
+  };
+  useEffect(() => {
+    findCourseById(courseId);
+  }, [courseId]);
+
+
   const {pathname} = useLocation();
 
   const [empty, kanbas, id, screen, name] = pathname.split("/");
