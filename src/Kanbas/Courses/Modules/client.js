@@ -5,8 +5,8 @@ import axios from "axios";
 // const COURSES_URL = 'https://kanbas-node-server-app-bjef.onrender.com/api/courses';
 
 const API_BASE = process.env.REACT_APP_API_BASE;
-const MODULES_URL = `${API_BASE}/modules`;
-const COURSES_URL = `${API_BASE}/courses`;
+const MODULES_URL = `${API_BASE}/api/modules`;
+const COURSES_URL = `${API_BASE}/api/courses`;
 
 
 export const updateModule = async (module) => {
