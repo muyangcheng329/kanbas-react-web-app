@@ -1,7 +1,7 @@
 function Account() {
     return (
       <div>
-        <h1></h1>
+        <h1>Account1</h1>
       </div>
     );
   }

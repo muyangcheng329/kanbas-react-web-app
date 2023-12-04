@@ -8,10 +8,11 @@ import {AiOutlineHistory} from "react-icons/ai";
 import {MdOutlineComputer} from "react-icons/md";
 import {MdOutput} from "react-icons/md";
 import {BiHelpCircle} from "react-icons/bi";
+import { BiUserCircle } from "react-icons/bi";
 import "./index.css";
 
 function KanbasNavigation() {
-  const links = ["Account", "Dashboard", "Courses", "Calendar","Inbox","History","Studio","Commons","Help"];
+  const links = ["Account", "Signin","Signup","Users","Account2","Dashboard", "Courses", "Calendar","Inbox","History","Studio","Commons","Help"];
 
 
   
@@ -25,6 +26,10 @@ function KanbasNavigation() {
     Studio: <MdOutlineComputer className="wd-icon" />,
     Commons: <MdOutput className="wd-icon" />,
     Help: <BiHelpCircle className="wd-icon" />,
+    Users:<BiUserCircle className="wd-icon" />,
+    Signin: <BiUserCircle className="wd-icon" />,
+    Account2: <FaUserCircle className="wd-icon"/>,
+    Signup:<BiUserCircle className="wd-icon" />,
   };
 
   const { pathname } = useLocation();
